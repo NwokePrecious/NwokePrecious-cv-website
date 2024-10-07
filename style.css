@@ -1,0 +1,106 @@
+/* General page styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  color: #323231;
+}
+
+/* Navigation menu styles */
+nav ul {
+  background-color: #323131;
+  list-style-type: none;
+  padding: 10px;
+  text-align: right;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Page heading */
+h1 {
+  color: #873904;
+  text-align: left;
+  font-size: 36px;
+  text-align: center;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+img {
+  width: 50%;
+  height: 50%;
+  border-radius: 20px;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  background-color: #323131;
+  color: white;
+}
+
+/* Custom Styling for Headers */
+h1,
+h2 {
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+  color: #873904;
+}
+
+/* Custom Image Styling */
+img {
+  border: 2px solid #1f1e1e;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Custom Button Hover Effect */
+button.btn-primary:hover {
+  background-color: #873904;
+  border-color: #873904;
+}
+
+/* Custom List Group Style */
+.list-group-item {
+  background-color: #f3f0ee;
+}
+
+/* Custom Table Styling */
+.table th,
+.table td {
+  text-align: center;
+}
+
+.welcome-message {
+  color: #323131;
+  text-align: left;
+  font-size: 36px;
+  margin-bottom: 80px;
+  align-items: top;
+}
+
+a {
+  color: #ab4d0f;
+  text-decoration: none;
+}

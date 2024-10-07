@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NwokePrecious CV Website - Home</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <style>
+      /* Custom styles for the image */
+      .profile-image {
+        width: 100%; 
+        max-width: 400px; 
+        border-radius: 25px; 
+        margin: 20px auto;
+        display: block; 
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Bootstrap Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="index.html">NwokePrecious</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="cv.html">CV</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="hobbies.html">Hobbies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <style>
+      .container {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          margin-top: 5rem;
+          gap: 5rem;
+      }
+      .text-content {
+          flex: 1;
+          margin-right: 2rem;
+      }
+      .profile-image {
+          max-width: 50%;
+          height: auto;
+          
+     /* Media query for mobile devices */
+     @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+            .text-content {
+                margin-right: 0;
+                margin-bottom: 2rem;
+            }
+            .image-content {
+                margin-top: 2rem;
+            }
+      }
+  </style>
+</head>
+<body>
+  <main class="container">
+      <div class="text-content">
+          <h1 class="welcome-message">Hello 👋, Welcome!!</h1>
+          <h2 class="mb-4">NWOKE PRECIOUS</h2>
+          <p>
+              Aiming to apply my computer science expertise to drive innovation and
+              solve complex challenges in software development.
+          </p>
+      </div>
+      <!-- <div class="image-content"> -->
+          <img src="my_img.jpg" alt="Profile Picture" class="profile-image" />
+      <!-- </div> -->
+  </main>
+
+      <section class="mt-5">
+        <h2>Contact Information</h2>
+        <ul class="list-group">
+          <li class="list-group-item">
+            <strong>Email: </strong>
+            <a href="mailto:nwokeprecious23@gmail.com"
+              >nwokeprecious23@gmail.com</a
+            >
+          </li>
+          <li class="list-group-item">
+            <strong>LinkedIn: </strong>
+            <a
+              href="https://www.linkedin.com/in/precious-nwoke-39b7bb1b9/"
+              target="_blank"
+              >LinkedIn Profile</a
+            >
+          </li>
+          <li class="list-group-item">
+            <strong>Phone: </strong>+(358) 41 7262 754
+          </li>
+          <li class="list-group-item">
+            <strong>Address: </strong>Noljakantie 91 A5, 80140, Noljakka,
+            Joensuu
+          </li>
+          <li class="list-group-item"><strong>Birthday: </strong>19-05-2002</li>
+          <li class="list-group-item"><strong>Gender: </strong>Female</li>
+          <li class="list-group-item">
+            <strong>Nationality: </strong>Nigerian
+          </li>
+        </ul>
+      </section>
+
+      <section class="mt-5">
+        <h2>About Me</h2>
+        <p>
+          I'm a Graphic Designer, UI/UX Designer, and a Software Developer who
+          brings inclusive, minimal, and future-oriented user experiences to
+          people in need.
+        </p>
+      </section>
+    </main>
+
+    <!-- Bootstrap JS and Dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
