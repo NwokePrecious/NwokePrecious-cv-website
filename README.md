@@ -1,3 +1,3 @@
 # NwokePrecious-cv-website
 
-Year of creation - 2024
+Year of creation 2024
